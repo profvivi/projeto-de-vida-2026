@@ -59,7 +59,10 @@ body {
   display: block;
 }
 
-
+.ativo {
+  background-color: var(--botao-ativo);
+  border-bottom: 4px solid var(--verde);
+}
 
 /*quando a largura mínima da tela for maior que 768px.*/
 @media screen and (min-width: 768px) { 
