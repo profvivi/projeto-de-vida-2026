@@ -13,7 +13,7 @@ for(let i=0;i <botoes.length;i++){
 }
 fim aula2*/
 
-//aula 4
+//aula 4 (substituir a aula 2)
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 
