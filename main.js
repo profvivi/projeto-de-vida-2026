@@ -36,6 +36,7 @@ let tempoAtual = new Date();
 
 contadores[0].textContent = tempoObjetivo1 - tempoAtual;*/
 
+//aula 5 (substituir a aula 4)
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 
