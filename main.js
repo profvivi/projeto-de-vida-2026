@@ -139,6 +139,6 @@ function calculaTempo(tempoObjetivo) {
     " segundos"
   );
 } else {
-  return [0,0,0,0];
+  return "Prazo Finalizado";
 }
 }
