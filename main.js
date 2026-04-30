@@ -168,26 +168,6 @@ const tempoObjetivo4 = new Date("2026-06-01T00:00:00");
 
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 
-// Para cada objetivo na lista de contadores
-for (let i = 0; i < contadores.length; i++) {
-  //Calcular o tempo usando a função e associá-lo ao objetivo
-  contadores[i].textContent = calculaTempo(tempos[i]);
-}
-
-function atualizaCronometro() {
-  for (let i = 0; i < contadores.length; i++) {
-    contadores[i].textContent = calculaTempo(tempos[i]);
-  }
-}
-
-function comecaCronometro() {
-  atualizaCronometro();
-  setInterval(atualizaCronometro, 1000);
-}
-
-comecaCronometro();
-
-
 
 function calculaTempo(tempoObjetivo) {
   let tempoAtual = new Date();
@@ -215,3 +195,16 @@ function calculaTempo(tempoObjetivo) {
   return "Prazo Finalizado";
 }
 }
+
+function atualizaCronometro() {
+  for (let i = 0; i < contadores.length; i++) {
+    contadores[i].textContent = calculaTempo(tempos[i]);
+  }
+}
+
+function comecaCronometro() {
+  atualizaCronometro();
+  setInterval(atualizaCronometro, 1000);
+}
+
+comecaCronometro();
