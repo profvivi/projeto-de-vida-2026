@@ -181,6 +181,8 @@ function comecaCronometro() {
 
 comecaCronometro();
 
+
+
 function calculaTempo(tempoObjetivo) {
   let tempoAtual = new Date();
   let tempoFinal = tempoObjetivo - tempoAtual;
