@@ -143,7 +143,7 @@ function calculaTempo(tempoObjetivo) {
 }
 }*/
 
-//aula 7 (substituir a aula 6)
+//aula 6 (substituir a aula 5)
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 
